@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		84050FDF23A71EC9009A5A72 /* SortAlogrithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84050FDE23A71EC9009A5A72 /* SortAlogrithm.swift */; };
 		84050FE123A71F05009A5A72 /* SearchAlogrithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84050FE023A71F05009A5A72 /* SearchAlogrithm.swift */; };
+		84180E7723B4591E003401AE /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84180E7623B4591E003401AE /* BinarySearchTree.swift */; };
+		84180E7923B475FE003401AE /* AVLSearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84180E7823B475FE003401AE /* AVLSearchTree.swift */; };
 		841A9A7D237E58B100BEFB22 /* FYADTStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 841A9A7C237E58B100BEFB22 /* FYADTStructure.c */; };
 		84C033572378FFCA004E400E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C033562378FFCA004E400E /* AppDelegate.swift */; };
 		84C033592378FFCA004E400E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C033582378FFCA004E400E /* SceneDelegate.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		84050FDE23A71EC9009A5A72 /* SortAlogrithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortAlogrithm.swift; sourceTree = "<group>"; };
 		84050FE023A71F05009A5A72 /* SearchAlogrithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlogrithm.swift; sourceTree = "<group>"; };
+		84180E7623B4591E003401AE /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		84180E7823B475FE003401AE /* AVLSearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLSearchTree.swift; sourceTree = "<group>"; };
 		841A9A7A237E58B000BEFB22 /* FYDataStructureDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYDataStructureDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		841A9A7B237E58B100BEFB22 /* FYADTStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYADTStructure.h; sourceTree = "<group>"; };
 		841A9A7C237E58B100BEFB22 /* FYADTStructure.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FYADTStructure.c; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 			children = (
 				84050FDE23A71EC9009A5A72 /* SortAlogrithm.swift */,
 				84050FE023A71F05009A5A72 /* SearchAlogrithm.swift */,
+				84180E7623B4591E003401AE /* BinarySearchTree.swift */,
+				84180E7823B475FE003401AE /* AVLSearchTree.swift */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -296,7 +302,9 @@
 				84050FE123A71F05009A5A72 /* SearchAlogrithm.swift in Sources */,
 				84C033872379009A004E400E /* FYDataStructure.swift in Sources */,
 				84C033572378FFCA004E400E /* AppDelegate.swift in Sources */,
+				84180E7723B4591E003401AE /* BinarySearchTree.swift in Sources */,
 				84050FDF23A71EC9009A5A72 /* SortAlogrithm.swift in Sources */,
+				84180E7923B475FE003401AE /* AVLSearchTree.swift in Sources */,
 				841A9A7D237E58B100BEFB22 /* FYADTStructure.c in Sources */,
 				84C033592378FFCA004E400E /* SceneDelegate.swift in Sources */,
 			);

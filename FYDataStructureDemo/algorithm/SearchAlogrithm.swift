@@ -82,4 +82,22 @@ class SearchAlogrithm: NSObject {
             return mid
         }
     }
+    
+    
+    /// BFS 广度优先搜索
+//    /// - Parameter array: <#array description#>
+//    @discardableResult
+//
+//    class func BFSSearch(array: [Int])
+    
+}
+
+//定义一个图
+class Graph {
+    
+}
+
+//定义图上的一个节点
+class Note {
+    
 }

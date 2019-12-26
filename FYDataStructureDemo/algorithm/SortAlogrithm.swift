@@ -77,4 +77,26 @@ class SortAlogrithm: NSObject {
         print("排序后数组: \(res)")
         return res
     }
+    
+    ///插入排序
+    @discardableResult
+    class func insertSort(array: [Int]) -> [Int] {
+        print("\n插入排序----BEGIN")
+        print("排序前数组: \(array)")
+        var res = array
+        if array.count <= 1 {
+            return array
+        }
+        for index in 1 ..< res.count {
+            //将当前元素插入到有序数组的前端
+            var sortedIndex = index
+            while sortedIndex > 0 && res[sortedIndex] > res[sortedIndex-1] {
+                res.swapAt(sortedIndex, sortedIndex-1)
+                sortedIndex -= 1
+                print("交换后的数组: \(res)")
+            }
+        }
+        print("排序后数组: \(res)")
+        return res;
+    }
 }
