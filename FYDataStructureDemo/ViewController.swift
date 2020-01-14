@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 //        testCase()
         
         //二分查找
@@ -24,6 +23,12 @@ class ViewController: UIViewController {
         SortAlogrithm.selectionSort(array: [5,2,3,4,0,1,9,8])
         SortAlogrithm.quickSort(array: [10,2,5,3,1,0,9,8,5])
         SortAlogrithm.insertSort(array: [3,8,2,1,10,4,5,9])
+        SortAlogrithm.insertSort2(array: [3,8,2,1,10,4,5,9])
+        SortAlogrithm.bubblingSort(array: [4,1,6,9,0,2,5])
+        SortAlogrithm.shellSort1(array: [4,1,6,9,0,2,5])
+        SortAlogrithm.shellSort2(array: [4,1,6,9,0,2,5])
+        SortAlogrithm.mergeSort(array: [4,1,6,9,0,2,5])
+        SortAlogrithm.heapSort(array: [4,1,6,9,0,2,5])
         
         //二叉搜索树
         print("\n二叉搜索树")
@@ -55,6 +60,12 @@ class ViewController: UIViewController {
         print("当前节点的高度\(target?.height() ?? 0)")
         print("当前节点的深度\(target?.depth() ?? 0)")
 
+        
+        //大顶堆
+        let maxHeap = MaxHeap(array: [2, 7, 1, 5, 1, 8, 0])
+        let maxNum = maxHeap.peeK()
+        print("当前堆顶元素为\(String(describing: maxNum))")
+        maxHeap.insert(node: 8)
     }
 }
 

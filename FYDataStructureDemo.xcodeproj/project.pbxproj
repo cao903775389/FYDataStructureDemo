@@ -21,6 +21,8 @@
 		84C0336E2378FFCC004E400E /* FYDataStructureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0336D2378FFCC004E400E /* FYDataStructureDemoTests.swift */; };
 		84C033792378FFCC004E400E /* FYDataStructureDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C033782378FFCC004E400E /* FYDataStructureDemoUITests.swift */; };
 		84C033872379009A004E400E /* FYDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C033862379009A004E400E /* FYDataStructure.swift */; };
+		84C8115723CD6DA3000AA78C /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8115623CD6DA3000AA78C /* Heap.swift */; };
+		84C8115923CDB0A7000AA78C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8115823CDB0A7000AA78C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		84C033782378FFCC004E400E /* FYDataStructureDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDataStructureDemoUITests.swift; sourceTree = "<group>"; };
 		84C0337A2378FFCC004E400E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C033862379009A004E400E /* FYDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDataStructure.swift; sourceTree = "<group>"; };
+		84C8115623CD6DA3000AA78C /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		84C8115823CDB0A7000AA78C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				84050FE023A71F05009A5A72 /* SearchAlogrithm.swift */,
 				84180E7623B4591E003401AE /* BinarySearchTree.swift */,
 				84180E7823B475FE003401AE /* AVLSearchTree.swift */,
+				84C8115623CD6DA3000AA78C /* Heap.swift */,
+				84C8115823CDB0A7000AA78C /* PriorityQueue.swift */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -299,10 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C0335B2378FFCA004E400E /* ViewController.swift in Sources */,
+				84C8115723CD6DA3000AA78C /* Heap.swift in Sources */,
 				84050FE123A71F05009A5A72 /* SearchAlogrithm.swift in Sources */,
 				84C033872379009A004E400E /* FYDataStructure.swift in Sources */,
 				84C033572378FFCA004E400E /* AppDelegate.swift in Sources */,
 				84180E7723B4591E003401AE /* BinarySearchTree.swift in Sources */,
+				84C8115923CDB0A7000AA78C /* PriorityQueue.swift in Sources */,
 				84050FDF23A71EC9009A5A72 /* SortAlogrithm.swift in Sources */,
 				84180E7923B475FE003401AE /* AVLSearchTree.swift in Sources */,
 				841A9A7D237E58B100BEFB22 /* FYADTStructure.c in Sources */,
